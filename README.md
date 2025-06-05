@@ -24,6 +24,7 @@ To test error handling, turn off your internet and click the reload button.
 
 
 Features:
+
 -Fetches user data (name, email, address) using the Fetch API.
 -Dynamically displays the data in styled user cards.
 -Handles errors gracefully using .catch() block.
