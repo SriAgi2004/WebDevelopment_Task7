@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('https://mrwallpaper.com/images/hd/top-view-study-aesthetic-desk-xqhwe4ieuwsipmtc.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-container {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  max-width: 450px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000; /* Changed from green to black */
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold; /* Made label text bold */
+  display: block;
+  margin-top: 15px;
+  color: #000000; /* Label text in black */
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ced4da;
+  border-radius: 6px;
+  font-size: 1em;
+  background-color: #fefefe;
+  color: #212529;
+  transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-color: #000000; /* Focus border black */
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.error {
+  color: #d00000;
+  font-size: 0.85em;
+  margin-top: 4px;
+}
+
+.success {
+  color: #000000; /* Success message in black */
+  text-align: center;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #000000; /* Button black */
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #333333; /* Slightly lighter black on hover */
+  transform: scale(1.02);
+}
+
+@media (max-width: 500px) {
+  .form-container {
+    margin: 20px;
+  }
+}
