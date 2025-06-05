@@ -11,8 +11,11 @@ Tools Used:
   [ https://jsonplaceholder.typicode.com/users](https://jsonplaceholder.typicode.com/users)
 
 Steps to Run:
-   Clone the repo or download the files.
+
+   Download the files.
+   
    Open index.html in your browser.
+   
    Click on "Reload Users" to fetch data again.
 
 To test error handling, turn off your internet and click the reload button.
